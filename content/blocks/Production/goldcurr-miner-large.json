@@ -1,0 +1,23 @@
+{
+	"type": "GenericCrafter",
+	"name": "Майнинг золота (огромный)",
+	"description": "Производит золото гораздо быстрее",
+    "itemCapacity": 100,
+	"outputItems":[
+      {"item": "goldcurr", "amount": 7}
+    ],
+	"size": 3,
+	"buildCostMultiplier": 0.1,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 25,
+	"updateEffect": "smeltsmoke",
+	"requirements": [
+		{ "item": "goldcurr", "amount": 2000 },
+		{ "item": "gem", "amount": 200 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

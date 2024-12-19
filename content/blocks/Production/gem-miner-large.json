@@ -1,0 +1,23 @@
+{
+	"type": "GenericCrafter",
+	"name": "Майнинг гемов(огромный)",
+	"description": "Производит гемы гораздо быстрее",
+    "itemCapacity": 100,
+	"outputItems":[
+      {"item": "gem", "amount": 7}
+    ],
+	"size": 3,
+	"buildCostMultiplier": 0.1,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"requirements": [
+		{ "item": "goldcurr", "amount": 2000 },
+		{ "item": "gem", "amount": 300 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

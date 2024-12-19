@@ -1,0 +1,8 @@
+{
+  "type": "OreBlock",
+  "itemDrop": "goldcurr",
+  "oreDefault": true,	
+  "oreScale": 37.380953,
+  "oreThreshold": 0.882,
+  "variants": 2
+}

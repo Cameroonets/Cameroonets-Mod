@@ -1,0 +1,9 @@
+{
+  "type": "material",
+  "name": "Гем",
+  "description": "пасс рояль",
+  "hardness": 2,
+  "cost": 2.0,
+  "color": "00FF00",
+  "tier": 2
+}

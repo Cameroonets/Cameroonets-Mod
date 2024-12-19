@@ -1,0 +1,33 @@
+{
+	"type": "GenericCrafter",
+	"name": "Обменник золота (3 тир)",
+	"description": "Здесь вы можете обменять золото на ресурсы",
+    "itemCapacity": 100,
+	"outputItems":[
+      {"item": "thorium", "amount": 5},
+      {"item": "phase-fabric", "amount": 3},
+      {"item": "surge-alloy", "amount": 3}
+    ],
+	"size": 3,
+	"buildCostMultiplier": 0.02,
+	"buildCost": 5,
+	"hasPower": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "goldcurr", "amount": 80}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "goldcurr", "amount": 2800 },
+		{ "item": "gem", "amount": 100}
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

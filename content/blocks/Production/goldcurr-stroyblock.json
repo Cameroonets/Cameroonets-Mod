@@ -1,0 +1,27 @@
+{
+	"type": "GenericCrafter",
+	"name": "Обменник золота",
+	"description": "Здесь вы можете обменять золото на строительный блок",
+	"outputItem": {"item": "stroyblock", "amount": 3},
+	"size": 2,
+	"buildCostMultiplier": 0.02,
+	"buildCost": 0.5,
+	"hasPower": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "goldcurr", "amount": 5}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "goldcurr", "amount": 750 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

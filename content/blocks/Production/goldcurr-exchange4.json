@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "Обменник золота (Прочие ресурсы)",
+	"description": "Здесь вы можете обменять золото на ресурсы",
+    "itemCapacity": 100,
+	"outputItems":[
+      {"item": "plastanium", "amount": 5},
+      {"item": "phase-fabric", "amount": 5}
+    ],
+	"size": 2,
+	"buildCostMultiplier": 0.02,
+	"buildCost": 5,
+	"hasPower": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "goldcurr", "amount": 50}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "goldcurr", "amount": 1300 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

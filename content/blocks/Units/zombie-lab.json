@@ -1,0 +1,52 @@
+{
+  "name": "Зомби даболотория",
+  "description": "Только если за команду зомби играете",
+  "type": "UnitFactory",
+  "health": 1488,
+   "placeSound": "place-1",
+  "placePitchChange": false,
+  "destroySound": "destroy-big",
+  "researchCostMultiplier": 1,
+  "size": 3,
+  "buildCostMultiplier": 0.2,
+  "plans": [
+    {
+      "unit": "small-zombie",
+      "requirements": [
+        {
+          "item": "gem",
+          "amount": 100
+        }
+      ],
+      "time": 100
+    },
+	{
+      "unit": "medium-zombie",
+      "requirements": [
+        {
+          "item": "gem",
+          "amount": 200
+        }
+      ],
+      "time": 100
+    },
+	{
+      "unit": "big-zombie",
+      "requirements": [
+        {
+          "item": "gem",
+          "amount": 300
+        }
+      ],
+      "time": 100
+    }
+  ],
+  "requirements": [
+    {
+      "item": "gem",
+      "amount": 1488
+    }
+  ],
+  "category": "units",
+  "research": "router"
+}

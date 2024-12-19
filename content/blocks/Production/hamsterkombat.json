@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "Hamster Kombat",
+	"description": "Здесь вы можете обменять HAMSTER на золото",
+    "itemCapacity": 100,
+	"outputItems":[
+      {"item": "goldcurr", "amount": 15}
+    ],
+	"size": 3,
+	"buildCostMultiplier": 0.1,
+	"hasPower": false,
+	"hasItems": true,
+	"buildCost": 0.5,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "hamstercoin", "amount": 10}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "goldcurr", "amount": 700 },
+		{ "item": "hamstercoin", "amount": 100}
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,163 @@
+{
+  "name": "Barracks",
+  "description": "Barracks",
+  "type": "UnitFactory",
+  "health": 750,
+   "placeSound": "place-1",
+  "placePitchChange": false,
+  "destroySound": "destroy-big",
+  "researchCostMultiplier": 1,
+  "size": 3,
+  "buildCostMultiplier": 0.2,
+  "buildCost": 20,
+  "plans": [
+    {
+      "unit": "dagger",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 200
+        }
+      ],
+      "time": 1200
+    },
+    {
+      "unit": "mace",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 400
+        }
+      ],
+      "time": 1200
+    },
+    {
+      "unit": "crawler",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 100
+        }
+      ],
+      "time": 800
+    },
+    {
+      "unit": "atrax",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 320
+        }
+      ],
+      "time": 1600
+    },
+    {
+      "unit": "nova",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 230
+        }
+      ],
+      "time": 1600
+    },
+    {
+      "unit": "pulsar",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 390
+        }
+      ],
+      "time": 1600
+    },
+    {
+      "unit": "mono",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 120
+        }
+      ],
+      "time": 800
+    },
+    {
+      "unit": "poly",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 180
+        }
+      ],
+      "time": 800
+    },
+    {
+      "unit": "flare",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 200
+        }
+      ],
+      "time": 900
+    },
+    {
+      "unit": "horizon",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 350
+        }
+      ],
+      "time": 1100
+    },
+    {
+      "unit": "risso",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 170
+        }
+      ],
+      "time": 800
+    },
+    {
+      "unit": "minke",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 280
+        }
+      ],
+      "time": 1100
+    },
+    {
+      "unit": "retusa",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 130
+        }
+      ],
+      "time": 600
+    },
+    {
+      "unit": "oxynoe",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 280
+        }
+      ],
+      "time": 800
+    }
+  ],
+  "requirements": [
+    {
+      "item": "goldcurr",
+      "amount": 850
+    }
+  ],
+  "category": "units",
+  "research": "router"
+}

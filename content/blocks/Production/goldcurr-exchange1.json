@@ -1,0 +1,32 @@
+{
+	"type": "GenericCrafter",
+	"name": "Обменник золота (1 тир)",
+	"description": "Здесь вы можете обменять золото на ресурсы",
+    "itemCapacity": 100,
+	"outputItems":[
+      {"item": "copper", "amount": 10},
+      {"item": "lead", "amount": 10},
+      {"item": "titanium", "amount": 7}
+    ],
+	"size": 3,
+	"buildCostMultiplier": 0.1,
+	"hasPower": false,
+	"hasItems": true,
+	"buildCost": 0.5,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "goldcurr", "amount": 40}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "goldcurr", "amount": 400 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

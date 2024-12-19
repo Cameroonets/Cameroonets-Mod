@@ -1,0 +1,23 @@
+{
+	"type": "GenericCrafter",
+	"name": "Майнинг гемов",
+	"description": "Производит гемы? да, но долго",
+    "itemCapacity": 100,
+	"outputItems":[
+      {"item": "gem", "amount": 1}
+    ],
+	"size": 2,
+	"buildCostMultiplier": 0.1,
+	"buildCost": 0.5,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 90,
+	"updateEffect": "smeltsmoke",
+	"requirements": [
+		{ "item": "goldcurr", "amount": 900 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

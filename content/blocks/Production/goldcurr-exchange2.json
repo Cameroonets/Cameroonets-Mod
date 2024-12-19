@@ -1,0 +1,32 @@
+{
+	"type": "GenericCrafter",
+	"name": "Обменник золота (2 тир)",
+	"description": "Здесь вы можете обменять золото на ресурсы",
+    "itemCapacity": 100,
+	"outputItems":[
+      {"item": "silicon", "amount": 8},
+      {"item": "metaglass", "amount": 8},
+      {"item": "graphite", "amount": 8}
+    ],
+	"size": 3,
+	"buildCostMultiplier": 0.02,
+	"buildCost": 5,
+	"hasPower": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "goldcurr", "amount": 40}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "goldcurr", "amount": 1100 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

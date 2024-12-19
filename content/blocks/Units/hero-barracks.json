@@ -1,0 +1,82 @@
+{
+  "name": "Герои",
+  "description": "Здесь можно выбрать героя для игры",
+  "type": "UnitFactory",
+  "health": 750,
+   "placeSound": "place-1",
+  "placePitchChange": false,
+  "destroySound": "destroy-big",
+  "researchCostMultiplier": 1,
+  "size": 3,
+  "buildCostMultiplier": 0.2,
+  "plans": [
+    {
+      "unit": "techies",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 1000
+        }
+      ],
+      "time": 1200
+    },
+    {
+      "unit": "drowranger",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 1000
+        }
+      ],
+      "time": 1200
+    },
+    {
+      "unit": "clinkz",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 1000
+        }
+      ],
+      "time": 1200
+    },
+    {
+      "unit": "huskar",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 1000
+        }
+      ],
+      "time": 1200
+    },
+    {
+      "unit": "windranger",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 1000
+        }
+      ],
+      "time": 1200
+    },
+    {
+      "unit": "sniper",
+      "requirements": [
+        {
+          "item": "goldcurr",
+          "amount": 1000
+        }
+      ],
+      "time": 1200
+    }
+  ],
+  "requirements": [
+    {
+      "item": "goldcurr",
+      "amount": 850
+    }
+  ],
+  "category": "units",
+  "research": "router"
+}

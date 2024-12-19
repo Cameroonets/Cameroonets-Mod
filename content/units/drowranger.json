@@ -1,0 +1,60 @@
+{
+  "name": "Drow ranger",
+  "description": "Drow Ranger",
+  "type": "mech",
+  "research": "dagger",
+  "hitSize": 10,
+  "speed": 1.7,
+  "range": 120,
+  "maxRange": 120,
+  "fogRadius": 21.0,
+  "flying": false,
+  "targetFlying": true,
+  "faceTarget": true,
+  "health": 700,
+  "weapons": [
+    {
+      "name": "drowranger-weapon",
+      "x": 0,
+      "y": 0,
+      "reload": 50,
+      "alternate": false,
+	  "mirror": false,
+      "top": false,
+	  "shootX": 4,
+      "inaccuracy": 0.0,
+      "shoot": {
+        "shots": 1,
+        "shotDelay": 1
+      },
+      "shootSound": "bow2",
+      "bullet": {
+        "type": "basicBulletType",
+        "bulletLifeTime": 60,
+        "damage": 90,
+        "speed": 4,
+        "width": 10,
+        "height": 10
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

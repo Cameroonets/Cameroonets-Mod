@@ -1,0 +1,60 @@
+{
+  "name": "Clinkz",
+  "description": "Сигнатурка Cameroonets",
+  "type": "mech",
+  "research": "dagger",
+  "hitSize": 10,
+  "speed": 1.7,
+  "range": 120,
+  "maxRange": 120,
+  "fogRadius": 21.0,
+  "flying": false,
+  "targetFlying": true,
+  "faceTarget": true,
+  "health": 780,
+  "weapons": [
+    {
+      "name": "clinkz-weapon",
+      "x": 0,
+      "y": 0,
+      "reload": 40,
+      "alternate": false,
+	  "mirror": false,
+      "top": false,
+	  "shootX": 4,
+      "inaccuracy": 0.0,
+      "shoot": {
+        "shots": 1,
+        "shotDelay": 1
+      },
+      "shootSound": "bow3",
+      "bullet": {
+        "type": "missileBulletType",
+        "bulletLifeTime": 60,
+        "damage": 60,
+        "speed": 3,
+        "width": 10,
+        "height": 10
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

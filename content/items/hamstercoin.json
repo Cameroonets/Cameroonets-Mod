@@ -1,0 +1,9 @@
+{
+  "type": "material",
+  "name": "hamster coin",
+  "description": "хамстер криминал",
+  "hardness": 4,
+  "cost": 2.0,
+  "color": "ff9800",
+  "tier": 3
+}

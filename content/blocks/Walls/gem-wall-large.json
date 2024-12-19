@@ -1,0 +1,14 @@
+{
+  "name": "Большая стена из гемов",
+  "description": "Прочная стена из гемчиков ZZZ VVVV ГООООООООЛЛЛЛ",
+  "type": "Wall",
+  "health": 2400,
+  "size": 2,
+  "buildCostMultiplier": 0.01,
+  "buildCost": 0.5,
+  "requirements": [
+    {"item": "gem", "amount": 48}
+  ],
+  "category": "defense",
+  "research": "router"
+}

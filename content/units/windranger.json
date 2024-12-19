@@ -1,0 +1,60 @@
+{
+  "name": "windranger",
+  "description": "Windranger",
+  "type": "mech",
+  "research": "dagger",
+  "hitSize": 10,
+  "speed": 1.4,
+  "range": 130,
+  "maxRange": 130,
+  "fogRadius": 21.0,
+  "flying": false,
+  "targetFlying": true,
+  "faceTarget": true,
+  "health": 810,
+  "weapons": [
+    {
+      "name": "windranger-weapon",
+      "x": 0,
+      "y": 0,
+      "reload": 15,
+      "alternate": false,
+	  "mirror": false,
+      "top": false,
+	  "shootX": 4,
+      "inaccuracy": 0.0,
+      "shoot": {
+        "shots": 1,
+        "shotDelay": 1
+      },
+      "shootSound": "bow",
+      "bullet": {
+        "type": "basicBulletType",
+        "bulletLifeTime": 60,
+        "damage": 20,
+        "speed": 3,
+        "width": 10,
+        "height": 10
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

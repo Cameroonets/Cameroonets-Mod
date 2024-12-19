@@ -1,0 +1,37 @@
+{
+  "name": "Камеритовый завод",
+  "description": "",
+  "type": "UnitFactory",
+  "health": 1488,
+   "placeSound": "place-1",
+  "placePitchChange": false,
+  "destroySound": "destroy-big",
+  "researchCostMultiplier": 1,
+  "size": 3,
+  "buildCostMultiplier": 0.2,
+  "plans": [
+    {
+      "unit": "camer-drone",
+      "requirements": [
+		{ "item": "camer", "amount": 1700 },
+		{ "item": "camer-refined", "amount": 100}
+	],
+      "time": 300
+    },
+	{
+      "unit": "fpv-drone",
+      "requirements": [
+		{ "item": "camer", "amount": 1200 }
+	],
+      "time": 300
+    }
+  ],
+  "requirements": [
+    {
+      "item": "camer",
+      "amount": 1500
+    }
+  ],
+  "category": "units",
+  "research": "router"
+}

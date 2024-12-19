@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "Банк",
+	"description": "Золото растет со временем",
+	"outputItem": {"item": "goldcurr", "amount": 50},
+	"size": 3,
+	"buildCostMultiplier": 0.2,
+	"buildCost": 5,
+	"hasPower": false,
+	"hasItems": true,
+	"craftTime": 300,
+	"itemCapacity": 5000,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "goldcurr", "amount": 20}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "goldcurr", "amount": 750 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

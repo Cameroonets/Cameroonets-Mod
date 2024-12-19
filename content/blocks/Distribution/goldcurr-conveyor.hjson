@@ -1,0 +1,11 @@
+type: Conveyor
+name: Скоростной Конвейер
+hasShadow: true
+health: 80
+speed: 30
+displayedSpeed: 10
+junctionReplacement: goldcurr-junction
+bridgeReplacement: goldcurr-bridge
+requirements: [
+  goldcurr/1
+]

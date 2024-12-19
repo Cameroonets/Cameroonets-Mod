@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "Завод Боеприпасов",
+	"description": "Здесь вы можете обменять золото на боеприпасы",
+	"outputItems":[
+      {"item": "pyratite", "amount": 10},
+      {"item": "blast-compound", "amount": 10}
+    ],
+	"size": 2,
+	"buildCostMultiplier": 0.02,
+	"hasPower": false,
+    "buildCost": 0.5,
+	"hasItems": true,
+	"craftTime": 30,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "goldcurr", "amount": 5}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "goldcurr", "amount": 450 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

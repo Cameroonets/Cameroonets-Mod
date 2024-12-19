@@ -1,0 +1,60 @@
+{
+  "name": "Huskar",
+  "description": "Huskar",
+  "type": "mech",
+  "research": "dagger",
+  "hitSize": 10,
+  "speed": 1.1,
+  "range": 100,
+  "maxRange": 100,
+  "fogRadius": 24.0,
+  "flying": false,
+  "targetFlying": true,
+  "faceTarget": true,
+  "health": 1090,
+  "weapons": [
+    {
+      "name": "huskar-weapon",
+      "x": 0,
+      "y": 0,
+      "reload": 22,
+      "alternate": false,
+	  "mirror": false,
+      "top": false,
+	  "shootX": 4,
+      "inaccuracy": 0.0,
+      "shoot": {
+        "shots": 1,
+        "shotDelay": 1
+      },
+      "shootSound": "bow",
+      "bullet": {
+        "type": "standardIncendiar",
+        "bulletLifeTime": 60,
+        "damage": 25,
+        "speed": 3,
+        "width": 8,
+        "height": 16
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+{
+ "type": "itemTurret",
+ "name": "Observer Ward",
+  "placeSound": "place-2",
+  "placePitchChange": false,
+  "destroySound": "destroy-small",
+ "description": "Разумный вид растений, дающий обзор союзникам",
+ "targetAir": true,
+ "targetGround": true,
+ "health": 150,
+ "size": 2,
+ "inaccuracy": 0,
+ "ammoPerShot": 0,
+ "reload": 0,
+ "recoil": 0,
+ "rotateSpeed": 0,
+ "shoots": 1,
+ "shotWith": 1,
+ "range": 200,
+ "maxAmmo":1,
+ "ammoTypes": {
+     "goldcurr": {
+         "Type": "artilleryHoming",
+         "damage": 0,
+         "lifetime": 0,
+         "speed": 0
+     } 
+ },
+ "requirements": [
+     {"item": "goldcurr", "amount": 80}
+     ],
+     "category": "turret",
+     "research": "duo",
+     "hasItems": true
+}

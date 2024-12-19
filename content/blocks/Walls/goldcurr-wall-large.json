@@ -1,0 +1,14 @@
+{
+  "name": "Большая золотая стена",
+  "description": "Прочная и дешевая стена из золотых монет",
+  "type": "Wall",
+  "health": 1200,
+  "size": 2,
+  "buildCostMultiplier": 0.01,
+  "buildCost": 0.5,
+  "requirements": [
+    {"item": "goldcurr", "amount": 96}
+  ],
+  "category": "defense",
+  "research": "router"
+}
